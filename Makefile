@@ -1,6 +1,6 @@
 SHELL := /bin/sh
 
-VERSION ?= 0.1.0-m0
+VERSION ?= 0.2.0
 COMMIT  ?= 0000000
 BUILD   ?= $(shell date -u +%Y-%m-%dT%H:%M:%SZ)
 LDFLAGS := -s -w \
